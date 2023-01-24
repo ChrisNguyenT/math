@@ -34,4 +34,4 @@
   You can test this application by running it in your default browser and check the console log for any errors.
   ## Questions?
   - Github: [ChrisNguyenT](https://github.com/ChrisNguyenT)
-  - Email: chris@chrisnguyen.io 
+  - Email: chris@chrisnguyen.page 

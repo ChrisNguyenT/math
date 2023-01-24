@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap" rel="stylesheet">
+    <title>Math Check</title>
+</head>
+
+<body>
+    <header>
+        <a id="leaderboard"></a>
+    </header>
+    <main>
+        <div id="hero">
+            <div id="score">Score: 0</div>
+            <div id="timer">90 Seconds Left</div>
+        </div>
+        <div id="container">
+            <div id="comment"></div>
+            <div id="questions">
+                <h1>Math Check</h1>
+                <p>You will have 90 seconds to answer as many math problems as you can. You will lose time if you get
+                    any questions wrong. Good luck!</p>
+                <button id="start">Let's Go!</button>
+            </div>
+            <div id="toggle" style="display: none">
+                <div id="container3">
+                    <input id="inputField">
+                    <div id="submitClear">
+                        <button id="enter">ENTER</button>
+                    </div>
+                </div>
+                <div id="numpad">
+                    <input id="num0" type="button" value="0" class="numVal" onclick="inputVal('0')">
+                    <input id="num1" type="button" value="1" class="numVal" onclick="inputVal('1')">
+                    <input id="num2" type="button" value="2" class="numVal" onclick="inputVal('2')">
+                    <input id="num3" type="button" value="3" class="numVal" onclick="inputVal('3')">
+                    <input id="num4" type="button" value="4" class="numVal" onclick="inputVal('4')">
+                    <input id="num5" type="button" value="5" class="numVal" onclick="inputVal('5')">
+                    <input id="num6" type="button" value="6" class="numVal" onclick="inputVal('6')">
+                    <input id="num7" type="button" value="7" class="numVal" onclick="inputVal('7')">
+                    <input id="num8" type="button" value="8" class="numVal" onclick="inputVal('8')">
+                    <input id="num9" type="button" value="9" class="numVal" onclick="inputVal('9')">
+                    <button id="clear">CLEAR</button>
+                </div>
+            </div>
+        </div>
+        <div id="container2" style="display:none">
+            <h1>Highscores</h1>
+            <ul id="highScoreList"></ul>
+            <div id="hsBtn">
+                <button id="back">Go Back</button>
+                <button id="clearHS" value="reset">Clear Highscore</button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
